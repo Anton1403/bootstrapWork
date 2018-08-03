@@ -6,3 +6,18 @@
     display: flex;
     clear: both;
 }
+
+a.login{background: yellow; /* Old browsers */
+    /*background: -moz-linear-gradient(left, #38a7ff 0%, #38a7ff 33%, #23e7e5 66%, #38a7ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #181513 0%,#181513 33%,#a19187 66%,#181513 100%); /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to right, #38a7ff 0%,#38a7ff 33%,#23e7e5 66%,#38a7ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38a7ff', endColorstr='#38a7ff',GradientType=1 ); /* IE6-9 */
+    background-size: 300% 100%; background-position: left center;}
+a.login:hover{color: #fff; background-position: right center; transition: 0.4s;}
+
+.antonheader {
+    background-color: #181513;
+}
+.navbar-nav a {
+    transition: 0.4s;
+}
