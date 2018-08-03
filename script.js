@@ -2,3 +2,4 @@ $('#exampleModal').modal({
     keyboard:false,
 
 })
+ 
